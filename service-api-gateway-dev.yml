@@ -1,0 +1,16 @@
+spring:
+    application:
+      name:service-api-gateway
+
+server:
+  port: 8001
+
+app: 
+  test: Bowwwm
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          config: DEBUG
